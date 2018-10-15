@@ -7,7 +7,8 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'build'),
-        publicPath: '/build'
+        publicPath: '/build',
+        libraryTarget:'commonjs2'
     },
 
     module: {
