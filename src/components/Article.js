@@ -7,8 +7,11 @@ export default class Article extends React.Component{
 
   render(){
     return (
-      <div>
-        HELLLO
+      <div className='articleContainer'>
+        <div className='articleTitle'>{this.props.name}</div>
+        <div className='articleImg'>
+          <img className='imgTag' src={this.props.img}/>
+        </div>
       </div>
     )
   }

@@ -42,6 +42,7 @@ function renderFullPage(html, preloadedState){
             <div id='root'>${html}</div>
             <script>window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState)}</script>
             <script src='client_bundle.js'></script>
+            <link rel='stylesheet' href='./css/article.css'>
           </body>
           </html>`
 

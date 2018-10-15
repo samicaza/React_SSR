@@ -1,0 +1,22 @@
+.articleContainer{
+  display:flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width:30%;
+  height:30%;
+  margin-right:20px;
+}
+
+.articleImg{
+  flex:4;
+  display:flex;
+}
+
+.articleTitle{
+  flex:1
+}
+
+.imgTag{
+ flex:1;
+ width:100%
+}
