@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@optimizely/optimizely-sdk": "^2.2.0",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -42,6 +41,7 @@
     "uuidv4": "^2.0.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
+    "@optimizely/optimizely-sdk": "^2.2.0",
     "webpack-node-externals": "^1.7.2"
   }
 }

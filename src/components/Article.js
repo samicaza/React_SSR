@@ -8,9 +8,7 @@ export default class Article extends React.Component{
   render(){
     return (
       <div>
-        <img src={this.props.imgSrc} height='100' width='100'>
-          <a src={this.props.articleSrc}></a>
-        </img>
+        HELLLO
       </div>
     )
   }

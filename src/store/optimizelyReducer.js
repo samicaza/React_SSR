@@ -3,8 +3,10 @@ import axios from 'axios';
 import uuidv4 from 'uuid/v4';
 import request from 'sync-request';
 
+
+
 //************ Insert your datafile link below ************
-var datafile = 'insert datafile here';
+var datafile = 'https://cdn.optimizely.com/datafiles/BwwucPUXt9Zc4PttHxBCXQ.json';
 
 //************ Insert the polling time to trigger a datafile fetch *******
 const timing = 5; //input in terms of minutes
@@ -56,7 +58,7 @@ const intialState = {
   optlyClient: false,
   lastRequest: false,
   datafileChange: false,
-  attributes: {},
+  attributes: {name:'Peter'},
   actions: false
 }
 

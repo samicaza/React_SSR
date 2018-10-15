@@ -5,7 +5,9 @@ import { Provider as ReduxProvider } from 'react-redux'
 import App from './App.js'
 import configureStore from './store/configureStore';
 
-const store = configureStore();
+const preloadedState = window.__PRELOADED_STATE__
+
+const store = configureStore(window.__PRELOADED_STATE__);
 
 ReactDOM.hydrate(
   <ReduxProvider store={store}>
@@ -13,5 +15,5 @@ ReactDOM.hydrate(
     <App />
   </BrowserRouter>
   </ReduxProvider>,
-  document.querySelector('#root')
+  document.getElementById('root')
 );

@@ -14,8 +14,8 @@ const createStoreWithMiddleware = compose(applyMiddleware(
 ))(createStore);
 
 const rootReducer = combineReducers({
-    app: appReducer,
-    optly: optimizelyReducer
+    appReducer,
+    optimizelyReducer
 });
 
 export default function configureStore(initialState = {}) {
